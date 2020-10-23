@@ -1,0 +1,77 @@
+<div class="container shadow-lg p-3 mb-5 bg-white rounded">
+  <h5 style="color: gray">Add an Order
+    <label class="pull-right">
+      <i class="fa fa-address-card-o col-5" style="color: blue"></i></label>
+  </h5>
+  <hr>
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="fName">First Name</label>
+        <input type="text" ngModel class="form-control" name="fName" placeholder="First name" id="fName">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="lName">Last Name</label>
+        <input type="text" ngModel class="form-control" name="lName" placeholder="Last Name" id="lName">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="email">Email</label>
+        <input type="email" ngModel class="form-control" name="email" placeholder="Email" id="email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="phone">Phone number</label>
+        <input type="text" ngModel id="phone" class="form-control" name="phone" placeholder="Phone Number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Schedule Date</label>
+      <input type="date" name="scheduleDate" class="form-control" ngModel name="scheduleDate"
+             placeholder="dd-mm-yyyy" value=""
+             min="1997-01-01" max="2030-12-31">
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" ngModel class="form-control" name="address" placeholder="1234 Main St">
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" name="inputCity" ngModel id="inputCity">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control" name="state" ngModel>
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+
+        <label for="zipCode">Postal/Zip Code</label>
+        <input type="text" id="zipCode" class="form-control" name="inputZip" ngModel>
+
+      </div>
+      <div class="form-group col-md-6">
+
+        <label for="country">Country</label>
+        <select id="country" class="form-control" name="country" ngModel>
+          <option selected>Choose...</option>
+          <option>Canada</option>
+          <option>USA</option>
+        </select>
+
+      </div>
+    </div>
+    <div class="text-right">
+      <button type="submit" class="btn btn-danger mr-2" (click)="slForm.resetForm()">Cancel</button>
+      <button type="submit" class="btn btn-success btn-md">Submit</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,25 @@
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.assigned{
+  background-color: blue;
+}
+.pending{
+  background-color: white;
+  color: #000;
+}
+.onroute{
+  background-color: orange;
+}
+.cancelled{
+  background-color: red;
+}
+.done{
+  background-color: green;
+}
