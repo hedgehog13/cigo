@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, OnDestroy, OnInit, ViewChild} from '@angular/core';
 import {AddOrderService} from "./add-order.service";
 import {IOrderModel} from "./order.model";
 import {NgForm} from "@angular/forms";
@@ -9,9 +9,9 @@ import {Subscription} from "rxjs";
   templateUrl: './add-order.component.html',
   styleUrls: ['./add-order.component.css']
 })
-export class AddOrderComponent implements OnInit {
+export class AddOrderComponent implements OnInit, OnDestroy {
   @ViewChild('f', {static: false}) slForm: NgForm;
-  subscription: Subscription;
+  subscription$: Subscription;
 
   constructor(private addOrderSrv: AddOrderService) {
   }
@@ -20,15 +20,13 @@ export class AddOrderComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    console.log(form.value);
+
     const order: IOrderModel = {
-
-      firstName: form.value.fName,
-
-      lastName: form.value.lName,
+      first_name: form.value.fName,
+      last_name: form.value.lName,
       phone: form.value.phone,
       email: form.value.email,
-      scheduleDate: form.value.scheduleDate,
+      scheduled_date: form.value.scheduleDate,
       address: form.value.address,
       city: form.value.inputCity,
       country: form.value.country,
@@ -36,12 +34,15 @@ export class AddOrderComponent implements OnInit {
       state: form.value.state,
 
     };
-    this.addOrderSrv.addOrder(order).subscribe(data => {
-      console.log(data);
-    });
+    this.subscription$ = this.addOrderSrv.addOrder(order).subscribe();
   }
 
   resetForm() {
     this.slForm.resetForm();
+  }
+
+
+  ngOnDestroy(): void {
+    this.subscription$.unsubscribe();
   }
 }
