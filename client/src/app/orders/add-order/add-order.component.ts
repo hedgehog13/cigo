@@ -22,7 +22,8 @@ export class AddOrderComponent implements OnInit, OnDestroy {
   }
 
   onSubmit(form: NgForm) {
-
+if(form.valid){
+}
     const order: IOrderModel = {
       first_name: form.value.fName,
       last_name: form.value.lName,
@@ -37,6 +38,7 @@ export class AddOrderComponent implements OnInit, OnDestroy {
 
     };
     this.subscription$ = this.orderSrv.addOrder(order).subscribe();
+
   }
 
 

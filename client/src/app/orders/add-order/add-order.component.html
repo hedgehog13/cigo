@@ -79,14 +79,14 @@
                 #country="ngModel"
                 [ngClass]="{'is-invalid' :country.invalid && (country.dirty || country.touched)}">
           <option selected>Choose...</option>
-          <option *ngFor="let country of countries">country</option>
+          <option *ngFor="let country of countries">{{country}}</option>
         </select>
 
       </div>
     </div>
     <div class="text-right">
       <button type="submit" class="btn btn-danger mr-2" (click)="slForm.resetForm()">Cancel</button>
-      <button type="submit" class="btn btn-success btn-md">Submit</button>
+      <button type="submit" class="btn btn-success btn-md" [disabled]="!f.valid">Submit</button>
     </div>
   </form>
 </div>
