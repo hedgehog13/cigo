@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f344613c-be67-4686-8175-e43d5d6414d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/connection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EatNpay" beforeDir="false" afterPath="$PROJECT_DIR$/../EatNpay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/protractor.conf.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/src/app.e2e-spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/src/app.po.ts" beforeDir="false" />
@@ -123,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="42" />
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
@@ -158,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -168,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/server/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -284,17 +268,6 @@
             <path>
               <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -352,16 +325,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603384271646</updated>
-      <workItem from="1603384273059" duration="70732000" />
+      <workItem from="1603384273059" duration="70971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70732000" />
+    <option name="totallyTimeSpent" value="70971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
@@ -680,7 +652,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="42" />
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
@@ -731,14 +703,14 @@
     <entry file="file://$PROJECT_DIR$/server/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
         </state>
       </provider>
     </entry>
