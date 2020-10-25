@@ -20,17 +20,17 @@ If you decide to run locally, please update server/connection.js host and port p
 
 ## Local environment installation
 open  cmd , go to the project root directory
-
-```shell
-cd server
-npm install 
-npm start
-```
 ```shell
 cd client
 npm install
 npm run build --aot   
 ```
+```shell
+cd server
+npm install 
+npm start
+```
+
 
 ## heroku link
 https://cigo-dev.herokuapp.com/
