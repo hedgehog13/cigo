@@ -5,6 +5,7 @@ import {HttpClient, HttpErrorResponse, HttpHeaders} from "@angular/common/http";
 import {BehaviorSubject, Observable, throwError} from "rxjs";
 import {catchError, map} from "rxjs/operators";
 import {IOrderModel} from "./order.model";
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
@@ -12,9 +13,9 @@ import {IOrderModel} from "./order.model";
 export class OrdersService {
 
   httpOptions = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
-  endpoint: string = 'http://localhost:8000/api';
+
   orderId$ = new BehaviorSubject(null);
-  API_URL = `${this.endpoint}/order`;
+  API_URL = `${environment.apiurl}/order`;
 
   constructor(private http: HttpClient) {
   }
@@ -42,12 +43,11 @@ export class OrdersService {
     const updatedItem = {
       ...item,
       status_id: action,
-    }
+    };
     const json = JSON.stringify(updatedItem);
 
     return this.http.put<any>(this.API_URL, json, this.httpOptions).pipe(
       map(res => {
-
         if (res) {
           this.orderId$.next(res);
         }
