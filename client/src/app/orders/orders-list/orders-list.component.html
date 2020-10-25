@@ -1,3 +1,4 @@
+<p-toast position="top-center"></p-toast>
 <div class="container shadow-lg p-3 mb-5 bg-white rounded">
   <h5 style="color:gray">Existing Orders
     <label class="pull-right">
@@ -18,27 +19,27 @@
         {{ order.first_name }}
       </td>
       <td>{{ order.last_name}}</td>
-      <td>{{ order.scheduled_date | date :'yyyy-MM-dd'}}</td>
+      <td>{{ order.scheduled_date | date:'yyyy-MM-dd':'UTC'  }}</td>
       <td class="text-right ">
         <div class="dropdown d-inline-block mr-2 ">
           <button class="btn btn-sm btn-secondary dropdown-toggle  ml-lg-3 btn-custom-w" type="button"
                   id="dropdownMenuButton"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                  [ngClass]="{'assigned' : order.status_id===0,
+                  [ngClass]="{'assigned' : order.status_id===1,
                                           'done': order.status_id===3,
                                           'cancelled': order.status_id===4,
                                           'onroute':order.status_id===2,
-                                           'pending': order.status_id===1}">
+                                           'pending': order.status_id===0}">
             {{status[order.status_id].name.toUpperCase()}}
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonc">
             <li class="btn btn-sm cursor-pointer dropdown-item" *ngFor="let action of status" [value]="action.value"
                 (click)="updateAction(order, $event)"
-                [ngClass]="{'assigned' :action.value===0,
+                [ngClass]="{'assigned' :action.value===1,
             'done': action.value===3,
             'cancelled': action.value===4,
             'onroute': action.value===2,
-            'pending': action.value===1}"
+            'pending': action.value===0}"
 
             >{{action.name| uppercase}}</li>
 

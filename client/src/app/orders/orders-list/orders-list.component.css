@@ -8,14 +8,17 @@
   line-height: 1.42857;
 }
 .assigned{
-  background-color: blue;
+  background-color: #337ab7;
+  border-color:#336ab5
 }
 .pending{
   background-color: white;
   color: #000;
 }
 .onroute{
-  background-color: orange;
+  background-color:
+    #f0ad4e;
+  background-color:#f0ad2e;border-color:#f1ad4e
 }
 .cancelled{
   color:#fff;background-color:#dc3545;border-color:#dc3545
@@ -27,5 +30,5 @@
   border-top: none;
 }
 .btn-custom-w{
-  width: 120px;
+  height: 30px;
 }
