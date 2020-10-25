@@ -1,10 +1,11 @@
 const createError = require('http-errors');
 const express = require('express');
-
+const path = require('path');
 const app = express();
 const ordersRouter = require('./routes/orders');
 app.use(express.json());
 
+app.use(express.urlencoded());
 const port = process.env.PORT || 8000;
 app.all("/*", (req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
@@ -12,20 +13,14 @@ app.all("/*", (req, res, next) => {
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With');
     next();
 });
-const forceSSL = function() {
-    return function (req, res, next) {
-        if (req.headers['x-forwarded-proto'] !== 'https') {
-            return res.redirect(
-                ['https://', req.get('Host'), req.url].join('')
-            );
-        }
-        next();
-    }
-}
-// middleware
-app.use(forceSSL());
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+
+
+app.use(express.static( '../client/dist/client/'));
+
 app.use('/api/order', ordersRouter);
+
 
 
 // catch 404 and forward to error handler
