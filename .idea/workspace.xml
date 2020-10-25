@@ -9,7 +9,19 @@
       <change beforePath="$PROJECT_DIR$/../angular.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../browserslist" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/protractor.conf.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/src/app.e2e-spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/src/app.po.ts" beforeDir="false" />
@@ -62,38 +74,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-324" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state>
+              <caret column="58" selection-start-column="58" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
@@ -103,11 +87,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/environments/environment.prod.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="237">
+              <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+              <folding>
+                <element signature="e#0#70#0" expanded="true" />
+                <element signature="n#constructor#0;n#AddOrderComponent#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <element signature="n#constructor#0;n#OrdersListComponent#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#constructor#0;n#OrdersService#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/environments/environment.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="117">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -125,19 +148,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/orders.js">
+        <entry file="file://$PROJECT_DIR$/client/src/environments/environment.prod.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="40">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/controllers/orders.js">
+        <entry file="file://$PROJECT_DIR$/server/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="280">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -146,16 +169,31 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="80" />
+              <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/connection.js">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +215,7 @@
       <find>require('mysql');</find>
       <find>cli</find>
       <find>client</find>
+      <find>app-order-item</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -199,7 +238,6 @@
         <option value="$PROJECT_DIR$/client/src/app/order-item/order-item.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/home/home.component.html" />
-        <option value="$PROJECT_DIR$/client/angular.json" />
         <option value="$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/add-order/add-order.component.html" />
         <option value="$PROJECT_DIR$/server/.gitignore" />
@@ -215,23 +253,24 @@
         <option value="$PROJECT_DIR$/client/src/app/orders/confirmation-dialog/confirmation-dialog.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/orders/confirmation-dialog/confirmation-dialog.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/orders/confirmation-dialog/confirmation-dialog.service.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts" />
         <option value="$PROJECT_DIR$/server/controllers/orders.js" />
         <option value="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.css" />
-        <option value="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html" />
         <option value="$PROJECT_DIR$/server/package.json" />
         <option value="$PROJECT_DIR$/client/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/client/package-lock.json" />
-        <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/client/src/index.html" />
         <option value="$PROJECT_DIR$/client/src/environments/environment.prod.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/client/angular.json" />
+        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts" />
       </list>
     </option>
   </component>
@@ -287,7 +326,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="orders" type="462c0819:PsiDirectoryNode" />
+              <item name="add-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
               <item name="orders-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
@@ -337,12 +392,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603384271646</updated>
-      <workItem from="1603384273059" duration="84868000" />
+      <workItem from="1603384273059" duration="89420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84868000" />
+    <option name="totallyTimeSpent" value="89420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -422,32 +477,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/browserslist">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="n#constructor#0;n#OrderItemComponent#0" expanded="true" />
-            <element signature="n#ngOnInit#0;n#OrderItemComponent#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,47 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-            <element signature="n#constructor#0;n#AddOrderComponent#0" expanded="true" />
-            <element signature="n#ngOnInit#0;n#AddOrderComponent#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="81" column="61" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,42 +633,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#constructor#0;n#OrdersService#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-          <folding>
-            <element signature="n#constructor#0;n#OrdersListComponent#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -696,13 +658,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/connection.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,42 +680,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/environments/environment.prod.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-324" />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -771,14 +695,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/orders/order-item/order-item.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="n#constructor#0;n#OrderItemComponent#0" expanded="true" />
+            <element signature="n#ngOnInit#0;n#OrderItemComponent#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#label#0;n#h5#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#constructor#0;n#OrdersService#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/orders/orders-list/orders-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="n#constructor#0;n#OrdersListComponent#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/orders/add-order/add-order.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+            <element signature="n#constructor#0;n#AddOrderComponent#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
           </folding>
         </state>
       </provider>

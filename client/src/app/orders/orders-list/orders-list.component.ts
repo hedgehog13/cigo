@@ -11,6 +11,7 @@ import {ConfirmationDialogService} from "../confirmation-dialog/confirmation-dia
 export class OrdersListComponent implements OnInit, OnDestroy {
 
   ordersListSub$;
+  isLoading$;
   status = [{name: 'Pending', value: 0},
     {name: 'Assigned', value: 1}, {name: 'On Route', value: 2}, {name: 'Done', value: 3}, {
       name: 'Cancelled',
@@ -23,11 +24,13 @@ export class OrdersListComponent implements OnInit, OnDestroy {
 
 
   ngOnInit() {
-    this.ordersListSub$ = this.ordersSrv.getOrdersData().subscribe(data => console.log(data.result));
+    this.ordersListSub$ = this.ordersSrv.getOrdersData().subscribe();
     this.ordersSrv.orderId$.subscribe(() => {
       this.ordersListSub$ = this.ordersSrv.getOrdersData();
     })
-
+    this.ordersSrv.isLoadnig$.subscribe(res => {
+      this.isLoading$ =res;
+    });
   }
 
   updateAction(id, e) {
@@ -51,6 +54,7 @@ export class OrdersListComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.ordersSrv.orderId$.unsubscribe();
+    this.ordersSrv.isLoadnig$.unsubscribe();
   }
 }
 

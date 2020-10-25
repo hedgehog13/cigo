@@ -15,6 +15,7 @@ export class OrdersService {
   httpOptions = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
 
   orderId$ = new BehaviorSubject(null);
+  isLoadnig$ = new BehaviorSubject(false);
   API_URL = `${environment.apiurl}/order`;
 
   constructor(private http: HttpClient) {
@@ -24,7 +25,6 @@ export class OrdersService {
     const json = JSON.stringify(order);
     return this.http.post<any>(this.API_URL, json, this.httpOptions).pipe(
       map(res => {
-        console.log(res);
         if (res) {
           this.orderId$.next(res);
         }
@@ -36,7 +36,7 @@ export class OrdersService {
 
   getOrdersData(): Observable<any> {
 
-    return this.http.get(this.API_URL, this.httpOptions);
+    return this.http.get(this.API_URL, this.httpOptions)
   }
 
   updateStatus(item, action) {
