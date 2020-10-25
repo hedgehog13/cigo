@@ -16,7 +16,7 @@ export class OrdersService {
 
   orderId$ = new BehaviorSubject(null);
   isLoadnig$ = new BehaviorSubject(false);
-  API_URL = `${environment.apiurl}/order`;
+  API_URL = `${environment.apiUrl}/order`;
 
   constructor(private http: HttpClient) {
   }
