@@ -2,34 +2,36 @@ This is a Cigo-tracker test application
 
 Prerequisites: install nodejs https://nodejs.org/en/download
 
-## git link
-https://github.com/hedgehog13/cigo
-Download from git
+## Get started
+Clone the repo https://github.com/hedgehog13/cigo
 
+```shell
 App folder includes 2 sub folders client & server
 App contains mysql script to create db
+```
 
+DB
 
+I put the db on google cloud mysql instance
 
-## db 
-I put the db on google cloud
-the IP configured in server/connection.js
-if you decide to run locally, please update server/connection.js host and port properties
+The IP for DB configured in server/connection.js
+
+If you decide to run locally, please update server/connection.js host and port properties and create db objects using db_script_mySQL.sql script located in root directory
 
 ## Local environment installation
-open cmd
-## Server
+open  cmd , go to the project root directory
+
 ```shell
 cd server
-    npm install 
-    npm start
+npm install 
+npm start
 ```
-## Client
+```shell
 cd client
-    npm install
-    npm start    
-
+npm install
+npm run build --aot   
+```
 
 ## heroku link
-    https://cigo-dev.herokuapp.com/
+https://cigo-dev.herokuapp.com/
 
