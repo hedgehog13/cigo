@@ -5,7 +5,7 @@ const app = express();
 const ordersRouter = require('./routes/orders');
 app.use(express.json());
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 app.all("/*", (req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
@@ -16,7 +16,6 @@ app.all("/*", (req, res, next) => {
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 app.use('/api/order', ordersRouter);
-
 
 
 // catch 404 and forward to error handler
