@@ -4,12 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { AddOrderComponent } from './add-order/add-order.component';
+import { AddOrderComponent } from './orders/add-order/add-order.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { OrderItemComponent } from './orders/order-item/order-item.component';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
-import { OrdersListComponent } from './orders/orders-list/orders-list.component';
+import {OrdersListComponent} from './orders/orders-list/orders-list.component';
+import { ConfirmationDialogComponent } from './orders/confirmation-dialog/confirmation-dialog.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { OrdersListComponent } from './orders/orders-list/orders-list.component'
     HomeComponent,
     AddOrderComponent,
     OrderItemComponent,
-    OrdersListComponent
+    OrdersListComponent,
+    ConfirmationDialogComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,7 @@ import { OrdersListComponent } from './orders/orders-list/orders-list.component'
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ ConfirmationDialogComponent ],
 })
 export class AppModule { }

@@ -5,11 +5,11 @@
   </h5>
   <hr>
   <form (ngSubmit)="onSubmit(f)" #f="ngForm">
-
     <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="fName">First Name</label>
-        <input type="text" ngModel class="form-control" name="fName" placeholder="First name" id="fName">
+      <div class="form-group col-md-6 required">
+        <label for="fName" class="control-label">First Name</label>
+        <input type="text" [ngClass]="{'is-invalid' :name.invalid && (name.dirty || name.touched)}"
+               ngModel #name="ngModel" class="form-control" required name="fName" placeholder="First name" id="fName">
       </div>
       <div class="form-group col-md-6">
         <label for="lName">Last Name</label>
@@ -19,52 +19,67 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="email">Email</label>
-        <input type="email" ngModel class="form-control" name="email" placeholder="Email" id="email">
+        <input type="email" ngModel #email="ngModel"
+               [ngClass]="{'is-invalid' :email.invalid && (email.dirty || email.touched)}"
+               class="form-control" name="email" placeholder="Email" id="email"
+               email="true">
       </div>
-      <div class="form-group col-md-6">
-        <label for="phone">Phone number</label>
-        <input type="text" ngModel id="phone" class="form-control" name="phone" placeholder="Phone Number">
+      <div class="form-group col-md-6 required">
+        <label for="phone" class="control-label">Phone number</label>
+        <input type="text" ngModel id="phone" class="form-control" name="phone"
+               [pattern]="phoneNumberPattern" #phone="ngModel" required
+               [ngClass]="{'is-invalid' :phone.invalid && (phone.dirty || phone.touched)}"
+               placeholder="Phone Number">
       </div>
     </div>
-    <div class="form-group">
-      <label>Schedule Date</label>
-      <input type="date" name="scheduleDate" class="form-control" ngModel name="scheduleDate"
-             placeholder="dd-mm-yyyy" value=""
-             min="1997-01-01" max="2030-12-31">
+    <div class="form-row">
+      <div class="form-group col-md-6 required">
+        <label class="control-label">Schedule Date</label>
+        <input type="date" name="scheduleDate" required
+               #date="ngModel"
+               [ngClass]="{'is-invalid' :date.invalid && (date.dirty || date.touched)}"
+               class="form-control" ngModel name="scheduleDate"
+               placeholder="dd-mm-yyyy" value=""
+               min="1997-01-01" max="2030-12-31">
+      </div>
     </div>
-    <div class="form-group">
-      <label for="address">Address</label>
-      <input type="text" id="address" ngModel class="form-control" name="address" placeholder="1234 Main St">
+    <div class="form-group required">
+      <label for="address" class="control-label">Address</label>
+      <input type="text" id="address" ngModel  #address="ngModel"
+             required
+             [ngClass]="{'is-invalid' :address.invalid && (address.dirty || address.touched)}"
+             class="form-control" name="address" placeholder="1234 Main St">
     </div>
 
     <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputCity">City</label>
-        <input type="text" class="form-control" name="inputCity" ngModel id="inputCity">
+      <div class="form-group col-md-6 required">
+        <label for="inputCity" class="control-label">City</label>
+        <input type="text" class="form-control" name="inputCity"
+               required #city="ngModel"
+               [ngClass]="{'is-invalid' :city.invalid && (city.dirty || city.touched)}"
+               ngModel id="inputCity">
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputState">State</label>
-        <select id="inputState" class="form-control" name="state" ngModel>
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
+      <div class="form-group col-md-6 required">
+        <label for="inputState" class="control-label">State</label>
+        <input type="text" id="inputState" ngModel class="form-control"
+               required #state="ngModel"
+               [ngClass]="{'is-invalid' :state.invalid && (state.dirty || state.touched)}"
+               name="inputState" placeholder="State">
       </div>
 
     </div>
     <div class="form-row">
       <div class="form-group col-md-6">
-
         <label for="zipCode">Postal/Zip Code</label>
         <input type="text" id="zipCode" class="form-control" name="inputZip" ngModel>
-
       </div>
-      <div class="form-group col-md-6">
-
-        <label for="country">Country</label>
-        <select id="country" class="form-control" name="country" ngModel>
+      <div class="form-group col-md-6 required">
+        <label for="country" class="control-label">Country</label>
+        <select id="country" class="form-control" name="country" ngModel
+                #country="ngModel"
+                [ngClass]="{'is-invalid' :country.invalid && (country.dirty || country.touched)}">
           <option selected>Choose...</option>
-          <option>Canada</option>
-          <option>USA</option>
+          <option *ngFor="let country of countries">country</option>
         </select>
 
       </div>

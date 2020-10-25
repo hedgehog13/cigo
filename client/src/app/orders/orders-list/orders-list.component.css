@@ -18,8 +18,14 @@
   background-color: orange;
 }
 .cancelled{
-  background-color: red;
+  color:#fff;background-color:#dc3545;border-color:#dc3545
 }
 .done{
-  background-color: green;
+  color:#fff;background-color:#28a745;border-color:#28a745
+}
+.table th{
+  border-top: none;
+}
+.btn-custom-w{
+  width: 120px;
 }

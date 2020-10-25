@@ -1,58 +1,97 @@
 import {Injectable} from '@angular/core';
 
 
-import {Observable, of} from "rxjs";
+import {HttpClient, HttpErrorResponse, HttpHeaders} from "@angular/common/http";
+import {BehaviorSubject, Observable, throwError} from "rxjs";
+import {catchError, map} from "rxjs/operators";
+import {IOrderModel} from "./order.model";
 
 @Injectable({
   providedIn: 'root'
 })
 export class OrdersService {
 
-  ordersList = [
-    {
-      id: 1,
-      firstName: 'A',
-      lastName: 'B',
-      date: '15/10/2020',
-      status: 'pending'
-    },
-    {
-      id: 2,
-      firstName: 'C',
-      lastName: 'D',
-      date: '13/11/2020',
-      status: 'done'
-    },
-    {
-      id: 12,
-      firstName: 'E',
-      lastName: 'F',
-      date: '15/10/2020',
-      status: 'on route'
-    }
-  ]
+  httpOptions = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
+  endpoint: string = 'http://localhost:8000/api';
+  orderId$ = new BehaviorSubject(null);
+  API_URL = `${this.endpoint}/order`;
 
-  constructor() {
+  constructor(private http: HttpClient) {
   }
 
-  updateStatus(item, action) {
-    const itemToAdd = {...item}
-    itemToAdd.status = action;
-
+  addOrder(order: IOrderModel): Observable<any> {
+    const json = JSON.stringify(order);
+    return this.http.post<any>(this.API_URL, json, this.httpOptions).pipe(
+      map(res => {
+        console.log(res);
+        if (res) {
+          this.orderId$.next(res);
+        }
+      }),
+      catchError(this.errorMgmt)
+    );
   }
+
 
   getOrdersData(): Observable<any> {
 
-    return of(this.ordersList);
+    return this.http.get(this.API_URL, this.httpOptions);
   }
 
-  removeOrder() {
-    return 'removed';
+  updateStatus(item, action) {
+    const updatedItem = {
+      ...item,
+      status_id: action,
+    }
+    const json = JSON.stringify(updatedItem);
+
+    return this.http.put<any>(this.API_URL, json, this.httpOptions).pipe(
+      map(res => {
+
+        if (res) {
+          this.orderId$.next(res);
+        }
+      }),
+      catchError(this.errorMgmt)
+    );
 
   }
 
-  removeItem(array, action) {
-    return [...array.slice(0, action.index), ...array.slice(action.index + 1)]
+  removeOrder(orderId) {
+    const options = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+      body: {
+        id: orderId,
+
+      },
+    };
+    return this.http.delete<any>(this.API_URL, options).pipe(
+      map((res) => {
+        console.log('removeOrder', res);
+        if (res) {
+          this.orderId$.next(res);
+        }
+        return res;
+      }),
+      catchError(this.errorMgmt)
+    )
+
   }
+
+  errorMgmt(error: HttpErrorResponse) {
+    let errorMessage = '';
+    if (error.error instanceof ErrorEvent) {
+      // Get client-side error
+      errorMessage = error.error.message;
+    } else {
+      // Get server-side error
+      errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
+    }
+
+    return throwError(errorMessage);
+  }
+
 }
 

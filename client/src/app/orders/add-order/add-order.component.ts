@@ -1,8 +1,8 @@
 import {Component, OnDestroy, OnInit, ViewChild} from '@angular/core';
-import {AddOrderService} from "./add-order.service";
-import {IOrderModel} from "./order.model";
+import {IOrderModel} from "../order.model";
 import {NgForm} from "@angular/forms";
 import {Subscription} from "rxjs";
+import {OrdersService} from "../orders.service";
 
 @Component({
   selector: 'app-add-order',
@@ -12,8 +12,10 @@ import {Subscription} from "rxjs";
 export class AddOrderComponent implements OnInit, OnDestroy {
   @ViewChild('f', {static: false}) slForm: NgForm;
   subscription$: Subscription;
+  phoneNumberPattern = "^((\\+91-?)|0)?[0-9]{10}$";
 
-  constructor(private addOrderSrv: AddOrderService) {
+  countries = ['Israel','Canada', 'USA', 'Mexico'];
+  constructor(private orderSrv: OrdersService) {
   }
 
   ngOnInit() {
@@ -34,12 +36,9 @@ export class AddOrderComponent implements OnInit, OnDestroy {
       state: form.value.state,
 
     };
-    this.subscription$ = this.addOrderSrv.addOrder(order).subscribe();
+    this.subscription$ = this.orderSrv.addOrder(order).subscribe();
   }
 
-  resetForm() {
-    this.slForm.resetForm();
-  }
 
 
   ngOnDestroy(): void {
