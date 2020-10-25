@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/protractor.conf.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/src/app.e2e-spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/src/app.po.ts" beforeDir="false" />
@@ -61,27 +61,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
+            <state relative-caret-position="160">
               <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
@@ -90,17 +72,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="232">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/environments/environment.prod.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="60">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/routes/orders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/controllers/orders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-104">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -114,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -126,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/connection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="84">
               <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
@@ -250,27 +250,6 @@
               <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@angular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@angular" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,11 +265,6 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cigo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cigo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603384271646</updated>
-      <workItem from="1603384273059" duration="80905000" />
+      <workItem from="1603384273059" duration="81634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80905000" />
+    <option name="totallyTimeSpent" value="81634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -546,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/orders/confirmation-dialog/confirmation-dialog.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -597,13 +564,6 @@
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -728,36 +688,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/connection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,10 +698,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/environments/environment.prod.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
